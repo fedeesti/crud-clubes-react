@@ -1,7 +1,11 @@
 module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
-    extend: {},
+    extend: {
+      margin: {
+        auto: '20px auto',
+      },
+    },
     colors: {
       black: 'black',
       ghostwhite: 'ghostwhite',

@@ -1,5 +1,11 @@
 {
-  "extends": ["airbnb-base", "plugin:prettier/recommended", "plugin:cypress/recommended"],
+  "extends": [
+    "airbnb-base",
+    "plugin:react/recommended",
+    "plugin:react/jsx-runtime",
+    "plugin:prettier/recommended",
+    "plugin:cypress/recommended"
+  ],
   "env": {
     "browser": true,
     "commonjs": true,
@@ -14,6 +20,9 @@
     }
   },
   "rules": {
+    "react/prop-types": 0,
+    "indent": ["error", 2],
+    "linebreak-style": 1,
     "no-plusplus": "off",
     "import/extensions": [
       "off",
